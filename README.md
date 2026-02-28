@@ -54,7 +54,7 @@ That's it. AI loads the instructions and becomes your health tracker. Works with
 1. **Download**: click the green `Code` button → `Download ZIP`, or clone with `git clone`
 2. **Open** the project folder in any AI editor or chatbot
 3. **Send**: *"Read health/INSTRUCTIONS.md and follow it."*
-4. **Say**: *"Interview me to fill out my health profile"*. AI will ask about your goals, conditions, lifestyle, and fill in `profile.md` for you
+4. **First time only**: *"Interview me to fill out my health profile"*. AI will ask about your goals, conditions, lifestyle, and fill in `profile.md` for you
 5. **Upload** any medical documents you have (lab results, exam reports). AI will parse and organize them
 6. **Start talking**: *"I slept 7 hours, had oatmeal for breakfast, ran 5km"*
 
