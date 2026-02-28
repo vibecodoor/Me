@@ -20,3 +20,6 @@ desktop.ini
 # Claude Code local settings
 .claude/
 PROJECT.md
+
+# Duplicate editor configs
+.cursorrules
