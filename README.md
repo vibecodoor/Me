@@ -52,6 +52,7 @@ The repo includes preconfigured instruction files — open the project and AI al
 | [Claude Code](https://claude.ai) | `CLAUDE.md` | ✅ Ready |
 | [Windsurf](https://codeium.com/windsurf) | `.windsurfrules` | ✅ Ready |
 | [GitHub Copilot](https://github.com/features/copilot) | `.github/copilot-instructions.md` | ✅ Ready |
+| [ChatGPT](https://openai.com) | `chatgpt.md` | ✅ Ready |
 | [Cline](https://cline.bot) | `.clinerules` | ✅ Ready |
 
 Any other AI editor that can read files will also work — just point it to `health/INSTRUCTIONS.md`.
