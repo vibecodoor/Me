@@ -57,6 +57,16 @@ The repo includes preconfigured instruction files — open the project and AI al
 
 Any other AI editor that can read files will also work — just point it to `health/INSTRUCTIONS.md`.
 
+## Troubleshooting
+
+**AI didn't pick up the health tracker context?** Some editors may not auto-load the instruction files on the first message. If AI responds as a generic assistant instead of a health tracker, just type:
+
+> **Read CLAUDE.md and start the session**
+
+(or point it to `health/INSTRUCTIONS.md` directly)
+
+After that, AI will load all the health files and work as expected.
+
 ## Quick Start
 
 1. **Download**: click the green `Code` button → `Download ZIP`, or clone with `git clone`
