@@ -22,9 +22,9 @@ Most health apps lock your data in proprietary formats, require subscriptions, a
 
 - **100% local** - your data never leaves your machine (except AI API calls)
 - **Works with any AI** - Claude, GPT, Gemini, or any LLM that can read files
-- **Works with any editor** - Cursor, Antigravity, Claude Cowork, etc.
+- **Works with any editor** - preconfigured for 7 AI editors (see below)
 - **Plain text** - grep it, git it, own it forever
-- **Zero setup** - clone and start talking
+- **Zero setup** - clone, open in your editor, start talking
 
 ## Features
 
@@ -41,15 +41,30 @@ Most health apps lock your data in proprietary formats, require subscriptions, a
 | **Goal Tracking** | Measurable goals with progress updated automatically |
 | **Doctor Summary** | "Prepare for doctor visit" → one-page summary of meds, symptoms, labs, trends |
 
+## Recommended Editors
+
+The repo includes preconfigured instruction files — open the project and AI already knows what to do:
+
+| Editor | Config file | Status |
+|---|---|---|
+| [Cursor](https://cursor.com) | `.cursor/rules/health-tracker.mdc` | ✅ Ready |
+| [Antigravity](https://antigravity.dev) | `.antigravity/rules.md` | ✅ Ready |
+| [Claude Code](https://claude.ai) | `CLAUDE.md` | ✅ Ready |
+| [Windsurf](https://codeium.com/windsurf) | `.windsurfrules` | ✅ Ready |
+| [GitHub Copilot](https://github.com/features/copilot) | `.github/copilot-instructions.md` | ✅ Ready |
+| [Cline](https://cline.bot) | `.clinerules` | ✅ Ready |
+
+Any other AI editor that can read files will also work — just point it to `health/INSTRUCTIONS.md`.
+
 ## Quick Start
 
 1. **Download**: click the green `Code` button → `Download ZIP`, or clone with `git clone`
-2. **Unzip** and open the `health/` folder in any AI-powered editor (Cursor, Antigravity, Claude Cowork, etc.)
+2. **Open** the project root folder in any editor from the list above — AI picks up instructions automatically
 3. **Say**: *"Interview me to fill out my health profile"*. AI will ask about your goals, conditions, lifestyle, and fill in `profile.md` for you
 4. **Upload** any medical documents you have (lab results, exam reports). AI will parse and organize them
 5. **Start talking**: *"I slept 7 hours, had oatmeal for breakfast, ran 5km"*
 
-That's it. AI reads `INSTRUCTIONS.md` and knows what to do. Your key info lives in `HEALTH.md` (navigation) and `profile.md` (your goals, conditions, baselines).
+That's it. AI reads the instructions and knows what to do. Your key info lives in `HEALTH.md` (navigation) and `profile.md` (your goals, conditions, baselines).
 
 ## Commands
 

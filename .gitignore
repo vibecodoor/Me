@@ -1,9 +1,9 @@
 # Personal data — don't push to public repo
 # Uncomment these lines if you fork this repo and add real data:
-# logs/
-# labs/
-# exams/
-# reports/
+# health/logs/
+# health/labs/
+# health/exams/
+# health/reports/
 
 # OS files
 .DS_Store
@@ -16,3 +16,7 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Claude Code local settings
+.claude/
+PROJECT.md
