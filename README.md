@@ -5,7 +5,7 @@ AI-powered health tracking using plain Markdown files. No app, no code, no depen
 ## How It Works
 
 ```
-You describe anything: meals, sleep, symptoms, complaints, lab results
+You describe anything in chat
         ↓
 AI reads your health files for context
         ↓
@@ -22,7 +22,7 @@ Most health apps lock your data in proprietary formats, require subscriptions, a
 
 - **100% local** - your data never leaves your machine (except AI API calls)
 - **Works with any AI** - Claude, GPT, Gemini, or any LLM that can read files
-- **Works with any editor** - Cursor, Windsurf, Claude Code, Antigravity, VS Code, etc.
+- **Works with any editor** - Cursor, Antigravity, Claude Cowork, etc.
 - **Plain text** - grep it, git it, own it forever
 - **Zero setup** - clone and start talking
 
@@ -30,7 +30,6 @@ Most health apps lock your data in proprietary formats, require subscriptions, a
 
 | Feature | What it does |
 |---|---|
-| **Quick Entry** | `S:8h Q9 E:8/7/6 M:8 W:78kg` → AI parses shorthand into structured data |
 | **4 Specialist Agents** | Nutritionist, Coach, Medical Analyst, Recovery Coach, auto-selected by context |
 | **Health Score** | Daily score (1-100) calculated from sleep, energy, mood, stress, activity |
 | **Correlations** | Short-term (days) and long-term (weeks/months) pattern detection |
@@ -50,7 +49,7 @@ Most health apps lock your data in proprietary formats, require subscriptions, a
 4. **Upload** any medical documents you have (lab results, exam reports). AI will parse and organize them
 5. **Start talking**: *"I slept 7 hours, had oatmeal for breakfast, ran 5km"*
 
-That's it. AI reads `INSTRUCTIONS.md` and knows what to do.
+That's it. AI reads `INSTRUCTIONS.md` and knows what to do. Your key info lives in `HEALTH.md` (navigation) and `profile.md` (your goals, conditions, baselines).
 
 ## Commands
 
@@ -58,12 +57,32 @@ That's it. AI reads `INSTRUCTIONS.md` and knows what to do.
 |---|---|
 | "interview me" | First-time setup, AI asks questions and fills your profile |
 | *describe your day* | Logs data to tracker files + daily log |
-| `S:8h Q9 E:7/6/5 M:7 St:3 W:78kg` | Quick entry, parsed automatically |
 | "daily review" | Score + trends + recommendations |
 | "what should I eat/do today?" | Smart suggestions based on your data |
 | "weekly report" | Generates weekly health report |
 | "doctor summary" | One-page summary for doctor visits |
-| "ask the coach" | Forces a specific specialist agent |
+| "ask the [coach/nutritionist/...]" | Forces a specific specialist agent |
+
+## Quick Entry
+
+Instead of writing full sentences, you can use shorthand:
+
+```
+S:8h Q9 E:8/7/6 M:8 St:2 W:78kg BP:120/80 HR:65 Water:2000ml
+```
+
+| Code | Meaning |
+|---|---|
+| S | Sleep hours |
+| Q | Sleep quality (1-10) |
+| E | Energy: morning/afternoon/evening (1-10) |
+| M | Mood (1-10) |
+| St | Stress (1-10) |
+| W | Weight |
+| BP | Blood pressure |
+| HR | Resting heart rate |
+
+All fields are optional. Just send what you have.
 
 ## Example Interaction
 
