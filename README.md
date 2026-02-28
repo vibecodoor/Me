@@ -5,7 +5,7 @@ AI-powered health tracking using plain Markdown files. No app, no code, no depen
 ## How It Works
 
 ```
-You describe your day in chat
+You describe anything: meals, sleep, symptoms, complaints, lab results
         ↓
 AI reads your health files for context
         ↓
