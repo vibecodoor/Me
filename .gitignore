@@ -1,0 +1,18 @@
+# Personal data — don't push to public repo
+# Uncomment these lines if you fork this repo and add real data:
+# logs/
+# labs/
+# exams/
+# reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
