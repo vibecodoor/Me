@@ -61,9 +61,7 @@ Any other AI editor that can read files will also work — just point it to `hea
 
 **AI didn't pick up the health tracker context?** Some editors may not auto-load the instruction files on the first message. If AI responds as a generic assistant instead of a health tracker, just type:
 
-> **Read CLAUDE.md and start the session**
-
-(or point it to `health/INSTRUCTIONS.md` directly)
+> **Read health/INSTRUCTIONS.md and follow it.**
 
 After that, AI will load all the health files and work as expected.
 
