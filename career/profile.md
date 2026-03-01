@@ -35,3 +35,21 @@ _To be filled during onboarding interview_
 | Base salary | — |
 | Target | — |
 | Last raise | — |
+
+## Career Baselines
+
+> AI calculates after 4+ weekly reviews. Update monthly.
+
+| Metric | Baseline | Current | Notes |
+|---|---|---|---|
+| Job Satisfaction | — | — | 1-10, weekly in log |
+| Engagement | — | — | 1-10, weekly in log |
+| Work-Life Balance | — | — | 1-10, weekly in log |
+
+## Compensation History
+
+> Track every change. Useful for negotiation leverage and growth trends.
+
+| Date | Role | Company | Base | Bonus | Equity | Total | Notes |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
