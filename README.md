@@ -130,7 +130,7 @@ All fields are optional. Just send what you have.
 ```
 ├── INSTRUCTIONS.md          # AI instructions + domain routing
 ├── health/
-│   ├── INSTRUCTIONS.md      # Health AI instructions
+│   ├── HEALTH-INSTRUCTIONS.md # Health AI instructions
 │   ├── HEALTH.md            # Navigation hub
 │   ├── agents.md            # 4 specialist personas
 │   ├── profile.md           # Goals, baselines, conditions
@@ -147,7 +147,7 @@ All fields are optional. Just send what you have.
 │   ├── exams/               # MRI, ultrasound, X-ray
 │   └── reports/             # AI-generated reports
 └── career/
-    ├── INSTRUCTIONS.md      # Career AI instructions
+    ├── CAREER-INSTRUCTIONS.md # Career AI instructions
     ├── CAREER.md            # Navigation hub
     ├── agents.md            # 3 specialist personas
     ├── profile.md           # Current role, experience, goals

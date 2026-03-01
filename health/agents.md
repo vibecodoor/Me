@@ -1,6 +1,6 @@
 # Specialist Agents
 
-Four personas activated by query context. See INSTRUCTIONS.md for routing rules.
+Four personas activated by query context. See HEALTH-INSTRUCTIONS.md for routing rules.
 
 ---
 

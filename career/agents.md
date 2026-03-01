@@ -1,6 +1,6 @@
 # Specialist Agents
 
-Three personas activated by query context. See INSTRUCTIONS.md for routing rules.
+Three personas activated by query context. See CAREER-INSTRUCTIONS.md for routing rules.
 
 ---
 

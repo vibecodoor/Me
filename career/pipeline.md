@@ -17,7 +17,7 @@
 |---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | |
 
-> Score: weighted evaluation (see INSTRUCTIONS.md → Offer Evaluation)
+> Score: weighted evaluation (see CAREER-INSTRUCTIONS.md → Offer Evaluation)
 > Decision: Evaluating / Negotiating / Accepted / Declined
 
 ## Funnel Insights

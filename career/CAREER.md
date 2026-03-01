@@ -40,4 +40,4 @@ Personal career knowledge base. AI reads these files as context and updates them
 
 ## AI Instructions
 
-See [INSTRUCTIONS.md](INSTRUCTIONS.md)
+See [CAREER-INSTRUCTIONS.md](CAREER-INSTRUCTIONS.md)

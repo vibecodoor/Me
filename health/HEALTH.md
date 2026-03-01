@@ -50,4 +50,4 @@ S:8h Q9 bed:23:00 wake:07:00 E:8/7/6 M:8 St:2 W:78kg Water:2000ml
 
 ## AI Instructions
 
-See [INSTRUCTIONS.md](INSTRUCTIONS.md)
+See [HEALTH-INSTRUCTIONS.md](HEALTH-INSTRUCTIONS.md)
