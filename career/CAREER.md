@@ -18,6 +18,7 @@ Personal career knowledge base. AI reads these files as context and updates them
 | [skills.md](skills.md) | Skills, courses, certifications |
 | [network.md](network.md) | Contacts, mentors, references |
 | [interviews.md](interviews.md) | Interview prep and history |
+| [pipeline.md](pipeline.md) | Job applications, offers, search funnel |
 | [achievements.md](achievements.md) | Projects, wins, resume items |
 | [journal.md](journal.md) | Reflection and thinking |
 | [agents.md](agents.md) | Specialist AI personas |
@@ -34,6 +35,8 @@ Personal career knowledge base. AI reads these files as context and updates them
 | "prepare for interview at [company]" | Generates preparation plan |
 | "add achievement: [description]" | Logs achievement |
 | "ask the [strategist/skills coach/...]" | Forces a specific specialist agent |
+| "pipeline status" | Overview of active applications and conversion rates |
+| "evaluate offer from [company]" | Structured offer scoring and comparison |
 
 ## AI Instructions
 
