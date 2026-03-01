@@ -21,5 +21,8 @@ desktop.ini
 .claude/
 PROJECT.md
 
+# Internal planning docs
+docs/
+
 # Duplicate editor configs
 .cursorrules
