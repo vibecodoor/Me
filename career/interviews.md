@@ -6,14 +6,16 @@
 |---|---|---|---|---|---|
 | | | | | | |
 
-> Stage: Applied / Phone Screen / Technical / Onsite / Offer / Rejected
+> Stage: Applied / Phone Screen / Technical / Behavioral / Onsite / Offer / Rejected
 > Prep Status: Not Started / In Progress / Ready
 
 ## History
 
-| Date | Company | Role | Result | Lessons Learned |
-|---|---|---|---|---|
-| | | | | |
+| Date | Company | Role | Result | Performance | Lessons Learned |
+|---|---|---|---|---|---|
+| | | | | | |
+
+> Performance: 1-10 self-assessment. Enables trend tracking across interviews.
 
 ## Common Questions & Stories
 
